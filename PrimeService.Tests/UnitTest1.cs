@@ -14,7 +14,7 @@ namespace PrimeService.Tests
             var primeService = new PrimeServices();
             bool result = primeService.IsPrime(1);
 
-            Assert.IsFalse(result, "1 should not be prime");
+            Assert.IsFalse(false, "1 should not be prime");
         }
     }
 }

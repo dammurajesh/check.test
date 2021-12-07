@@ -8,7 +8,7 @@ namespace Prime.Services
         {
             if (candidate == 1)
             {
-                return false;
+                return true;
             }
             throw new NotImplementedException("Not fully implemented.");
         }
